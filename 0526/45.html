@@ -1,0 +1,73 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>HTML Headings</title>
+<meta charset="UTF-8">
+<style>
+	*{ margin:0; padding: 0;}
+	#body{background-color: #F5F6F7;}
+	#div{margin-top: 60px;margin-left: 38%;}
+	#ul,li{ list-style: none;}
+	#li{margin-bottom: 20px; text-align: left;}
+	#box{width: 450px; height: 50px; border: 1px solid #666; padding: 10px;}
+	#pbox{width: 120px; height: 50px; border: 1px solid #666; padding: 10px;}
+	#necessary{font-size: small; color:red;}
+	#button{background:#00C850; color:white; width: 450px; border: 1px solid #666; height:50px; font-size: x-large; }
+</style>
+
+</head>
+
+<body id = "body">
+<div id = "div">
+
+	<ul>
+		<li >
+			<span>아이디</span><br>
+			<input type = "text" name ="id" placeholder="아이디를 입력하세요" id = "box"/><br><br>
+		</li>
+		<li>
+			<span>비밀번호</span> <br>
+			<input type = "password" name ="pwd" placeholder="패스워드를 입력하세요"  id = "box"><br>
+			<span id="necessary">필수정보입니다.</span><br><br>
+		</li>
+		<li>
+			<span>비밀번호 확인</span><br>
+			<input type = "password" name ="pwd" placeholder="패스워드를 확인하세요"  id = "box"><br>
+			<span id="necessary">필수정보입니다.</span><br><br>
+		<li>
+			<span>생년월일</span><br>
+			<input type="date" name="date" placeholder="생년월일을 입력하세요" id = "box"><br>
+			<span id="necessary">태어난 년도 4자리를 정확히 입력하세요.</span><br><br>
+		</li>
+		<li>
+			<span>전화번호</span> <br>
+			<input type="text"id="pbox"/> - <input type="text"id="pbox"/> - <input type="text"id="pbox"/>
+			<br><span id="necessary">필수정보입니다.</span><br><br>
+		</li>
+		<li>
+			<span>성별</span><br>
+			<input type = "radio" name="gender" value="m">남자
+			<input type = "radio" name="gender" value="w">여자<br><br>
+		</li>
+		<li>
+			<span>취미</span><br>
+			<input type = "checkbox" name="hobby" >독서
+			<input type = "checkbox" name="hobby" >산책
+			<input type = "checkbox" name="hobby" >TV 시청<br><br>
+		</li>
+		<li>
+		<input type ="button" name="join" id="button" value="가입하기">
+		</li>
+	</ul>
+
+</div>
+
+ 
+
+ 
+
+</body>
+
+</html>

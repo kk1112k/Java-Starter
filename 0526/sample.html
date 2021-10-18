@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<style>
+	*{ margin:0; padding: 0;}
+	body{background-color: #F5F6F7;}
+	div{margin-top: 60px;margin-left: 38%;}
+	ul,li{ list-style: none;}
+	li{margin-bottom: 20px; text-align: left;}
+	.box{width: 450px; height: 50px; border: 1px solid #666; padding: 10px;}
+	.pbox{width: 120px; height: 50px; border: 1px solid #666; padding: 10px;}
+	.necessary{font-size: small; color:red;}
+	button{background:#00C850; color:white; width: 450px; border: 1px solid #666; height:50px; font-size: x-large; }
+</style>
+</head>
+<body>
+<form action="sample.html" method="get" name="form">
+<div>
+	<ul>
+		<li>
+			<span>아이디</span><br /><input type="text" placeholder="아이디를 입력하세요" class="box"/>
+		</li>
+		<li>
+			<span>패스워드</span><br />
+			<input type="password" placeholder="패스워드를 입력하세요" class="box"/><br/>
+			<span class ="necessary">필수 정보입니다.</span>
+		</li>
+		<li>
+			<span>패스워드 확인</span><br />
+			<input type="password" placeholder="패스워드를 확인하세요" class="box"/><br/>
+			<span class ="necessary">필수 정보입니다.</span>
+		</li>
+		<li>
+			<span>전화번호</span><br />
+			<input type="text"class="pbox"/> - <input type="text" class="pbox" maxlength="4"/> - <input type="text" class="pbox" maxlength="4"/>
+			<br/>
+			<span class ="necessary">필수 정보입니다.</span>
+		</li>
+		<li>
+			<span>성별</span><br />
+			남자 <input type="radio" name = "gender" /> 
+			여자 <input type="radio" name = "gender" /> 			
+		</li>
+		<li>
+			<span>취미생활</span><br />
+			독서 <input type="checkbox" name = "hobby" value="1"/>
+			산책 <input type="checkbox" name = "hobby" value="2"/> 
+			TV시청 <input type="checkbox" name = "hobby" value="3" /> 	
+		</li>
+		<li>
+		<button>가입하기</button>		
+		</li>
+	</ul>
+</div>
+</form>
+</body>
+</html>
